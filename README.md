@@ -41,4 +41,7 @@ This template is created for Rimworld modders who use [Visual Studio Code](https
 * All intermediate files are kept inside `.vscode` folder.
 * For XML only modders remove preLaunchTask line from `.vscode/launch.json` file.
 * Modify `.vscode/mod.csproj` and `About/About.xml` according to your needs.
+
+#Search Terms
+Custom PatchOperation XML Mod Menu Rimworld Mod Options XMLExtensions xml extensions
  
