@@ -1,3 +1,19 @@
+# XMLOptionsTemplate
+An mod options template based off of the Rimworld Mod Template and Bradson's Plant Settings.
+
+Rimworld Mod Template: https://github.com/Rimworld-Mods/Template
+
+Bradson's Plant Settings: https://github.com/bbradson/Plant-Settings/tree/main
+
+Smash Phil's XML Patch Helper: https://github.com/SmashPhil/XmlPatchHelper/tree/main
+
+Speical thanks to Bradson, Smash Phil, and Euclidean for pointing me in the right direction.
+
+I recommend using Phil's XML Patch Helper for creating your patches.
+
+The sliders are there for an example, however, I have not figured out how to send the value to the XML patch yet.
+
+
 # Rimworld Mod Template
 
 This template is created for Rimworld modders who use [Visual Studio Code](https://code.visualstudio.com/) instead of Visual Studio IDE.
