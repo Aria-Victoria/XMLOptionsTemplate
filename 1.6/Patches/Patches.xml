@@ -4,9 +4,9 @@
       <settings>
          <li>OptionAEnabled</li>
       </settings>
-      <active Class="PatchOperationReplace">
+      <active Class="PatchOperationReplace"> <!-- Replace PatchOperationReplace with whatever patch operation you're trying to do.-->
          <success>Always</success>
-         <xpath>Defs/ThingDef[defName="Luciferium"]/label</xpath>
+         <xpath>Defs/ThingDef[defName="Luciferium"]/label</xpath> <!-- xpath -->
          <value>
             <label>taco</label>
          </value>
