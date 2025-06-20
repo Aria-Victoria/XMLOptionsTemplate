@@ -1,0 +1,56 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": []
+  },
+  "packageFolders": {
+    "C:\\Users\\aria\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "0.1.0",
+    "restore": {
+      "projectUniqueName": "G:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\XMLOptionsTemplate\\.vscode\\mod.csproj",
+      "projectName": "Template",
+      "projectPath": "G:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\XMLOptionsTemplate\\.vscode\\mod.csproj",
+      "packagesPath": "C:\\Users\\aria\\.nuget\\packages\\",
+      "outputPath": "G:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\XMLOptionsTemplate\\.vscode\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\aria\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net480"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net480",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net480",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

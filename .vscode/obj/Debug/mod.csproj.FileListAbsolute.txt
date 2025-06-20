@@ -1,0 +1,7 @@
+G:\SteamLibrary\steamapps\common\RimWorld\Mods\XMLOptionsTemplate\.vscode\obj\Debug\mod.csproj.AssemblyReference.cache
+G:\SteamLibrary\steamapps\common\RimWorld\Mods\XMLOptionsTemplate\.vscode\obj\Debug\mod.GeneratedMSBuildEditorConfig.editorconfig
+G:\SteamLibrary\steamapps\common\RimWorld\Mods\XMLOptionsTemplate\.vscode\obj\Debug\mod.AssemblyInfoInputs.cache
+G:\SteamLibrary\steamapps\common\RimWorld\Mods\XMLOptionsTemplate\.vscode\obj\Debug\mod.AssemblyInfo.cs
+G:\SteamLibrary\steamapps\common\RimWorld\Mods\XMLOptionsTemplate\.vscode\obj\Debug\mod.csproj.CoreCompileInputs.cache
+G:\SteamLibrary\steamapps\common\RimWorld\Mods\XMLOptionsTemplate\1.6\Assemblies\Template.dll
+G:\SteamLibrary\steamapps\common\RimWorld\Mods\XMLOptionsTemplate\.vscode\obj\Debug\Template.dll
