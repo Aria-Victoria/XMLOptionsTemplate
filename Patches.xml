@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+   <Operation Class="XMLOptionsTemplate.PatchOperation_Mod_SettingActive">
+      <settings>
+         <li>OptionAEnabled</li>
+      </settings>
+      <active Class="PatchOperationReplace">
+         <success>Always</success>
+         <xpath>Defs/ThingDef[defName="Luciferium"]/label</xpath>
+         <value>
+            <label>taco</label>
+         </value>
+      </active>
+   </Operation>
+   <!-- Split -->
+   <Operation Class="XMLOptionsTemplate.PatchOperation_Mod_SettingActive">
+      <settings>
+         <li>OptionBEnabled</li>
+      </settings>
+      <active Class="XMLOptionsTemplate.PatchOperation_Mod_ReplaceWithSetting">
+         <xpath>Defs/ThingDef[defName="MealSurvivalPack"]/statBases/MarketValue</xpath>
+         <settingValue>OptionBValue</settingValue>
+         <value>
+            <MarketValue>{VALUE}</MarketValue>
+         </value>
+      </active>
+   </Operation>
+   <Operation Class="XMLOptionsTemplate.PatchOperation_Mod_SettingActive">
+      <settings>
+         <li>OptionCEnabled</li>
+      </settings>
+      <active Class="XMLOptionsTemplate.PatchOperation_Mod_ReplaceWithSetting">
+         <xpath>Defs/ThingDef[defName="MedicineIndustrial"]/statBases/MarketValue</xpath>
+         <settingValue>OptionCValue</settingValue>
+         <value>
+            <MarketValue>{VALUE}</MarketValue>
+         </value>
+      </active>
+   </Operation>
+   <Operation Class="XMLOptionsTemplate.PatchOperation_Mod_SettingActive">
+      <settings>
+         <li>OptionDEnabled</li>
+      </settings>
+      <active Class="PatchOperationReplace">
+         <success>Always</success>
+         <xpath>Defs/ThingDef[defName="WoodLog"]/label</xpath>
+         <value>
+            <label>bark</label>
+         </value>
+      </active>
+   </Operation>
+</Patch>
