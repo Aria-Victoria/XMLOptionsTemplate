@@ -55,8 +55,8 @@ namespace XMLOptionsTemplate
             ls.Label("Actual Patch Examples.");
             ls.CheckboxLabeled("Rename Luciferium to Chile Powder.", ref settings.OptionAEnabled);
             ls.CheckboxLabeled("Change packed meal value.", ref settings.OptionBEnabled);
-            settings.OptionBValue = (int)ls.SliderLabeled("Option B Value: " +settings.OptionBValue+".", settings.OptionBValue, 0f, 100f, 0.5f, "Tooltip");
-            
+            settings.OptionBValue = (int)ls.SliderLabeled("Option B Value: " + settings.OptionBValue + ".", settings.OptionBValue, 0f, 100f, 0.5f, "Tooltip");
+
             ls.End();
             Widgets.EndScrollView();
             base.DoSettingsWindowContents(inRect);
@@ -115,6 +115,49 @@ namespace XMLOptionsTemplate
                 return inactive.Apply(xml);
             }
             return true;
+        }
+    }
+
+    public class PatchOperation_SettingEnabled_WithValue : PatchOperation
+    {
+        private List<string> settings;
+        private string xpath;
+        private string replacementValueSource;
+
+        protected override bool ApplyWorker(XmlDocument xml)
+        {
+            bool flag = false;
+            for (int i = 0; i < settings.Count(); i++)
+            {
+                if (XMLOptionsTemplateMod.settings.GetEnabledSettings.Contains(settings[i]))
+                {
+                    flag = true;
+                    break;
+                }
+            }
+            if (flag)
+            {
+                if (!string.IsNullOrEmpty(xpath))
+                {
+                    XmlNode node = xml.SelectSingleNode(xpath);
+                    if (node != null)
+                    {
+                        string replacementValue = GetReplacementValue(replacementValueSource);
+                        node.InnerText = replacementValue;
+                    }
+                }
+                return //somehow apply it?!?
+            }
+        }
+        
+        private string GetReplacementValue(string source)
+        {
+            var field = typeof(XMLOptionsTemplateSettings).GetField(source);
+            if (field != null)
+            {
+                return field.GetValue(XMLOptionsTemplateMod.settings).ToString();
+            }
+            return string.Empty;
         }
     }
 }
