@@ -4,11 +4,24 @@
       <settings>
          <li>OptionAEnabled</li>
       </settings>
-      <active Class="PatchOperationReplace"> <!-- Replace PatchOperationReplace with whatever patch operation you're trying to do.-->
+      <active Class="PatchOperationReplace">
          <success>Always</success>
-         <xpath>Defs/ThingDef[defName="Luciferium"]/label</xpath> <!-- xpath -->
+         <xpath>Defs/ThingDef[defName="Luciferium"]/label</xpath>
          <value>
             <label>taco</label>
+         </value>
+      </active>
+   </Operation>
+   <!-- Split -->
+   <Operation Class="XMLOptionsTemplate.PatchOperation_SettingsActive">
+      <settings>
+         <li>OptionBEnabled</li>
+      </settings>
+      <active Class="PatchOperationReplace">
+         <success>Always</success>
+         <xpath>Defs/ThingDef[defName="MealSurvivalPack"]/statBases/MarketValue</xpath>
+         <value>
+            <MarketValue>69</MarketValue>
          </value>
       </active>
    </Operation>
