@@ -1,6 +1,10 @@
 # XMLOptionsTemplate
 
-A mod options template based off of Bradson's Plant Settings.
+A mod options template based off of Bradson's Plant Settings (https://github.com/bbradson/Plant-Settings/tree/main)
+
+Sorry for massacring your boy.
+
+Special thanks to Bradson, SmashPhil and Euclidean for pointing me in the right direction.
 
 How do I use this?
 
@@ -30,4 +34,4 @@ Step 12: Go to the options menu and mess with it.
 
 Confused?
 
-Video: 
+Video: https://youtu.be/_AC4Wzyf4VA
