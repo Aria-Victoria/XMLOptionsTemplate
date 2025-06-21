@@ -12,7 +12,7 @@
          </value>
       </active>
    </Operation>
-   <!-- Split -->
+   <!-- Checks if the setting is active, then replaces {VALUE} with the value of the option within <settingValue> -->
    <Operation Class="XMLOptionsTemplate.PatchOperation_Mod_SettingActive">
       <settings>
          <li>OptionBEnabled</li>
@@ -37,6 +37,7 @@
          </value>
       </active>
    </Operation>
+   <!--  -->
    <Operation Class="XMLOptionsTemplate.PatchOperation_Mod_SettingActive">
       <settings>
          <li>OptionDEnabled</li>
